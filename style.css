@@ -1,0 +1,154 @@
+/* global */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Roboto', sans-serif;
+}
+
+/* utilities */
+
+/* nav */
+.nav-bar img{
+    width: 25px;
+    height: 35px;
+    margin-left: 10px;
+
+}  
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.links-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 300px;
+}
+.links-container a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 510;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+.links-container a:last-of-type{
+    margin-right: 20px;
+   
+}
+
+#subs-link { 
+    padding: 12px;
+    color: white;
+    background-color: black;
+
+
+}
+#s-link a:hover{
+    width: 100%; 
+    background-color: rgb(224, 185, 12); 
+    transition:all 4s ease-in; 
+
+}
+
+.search-link,.renew-link,.menu-link,.big-logo{
+    display: none;
+}
+/* header */
+header{
+    
+    
+    color: white;
+    background-color: black;
+    height: 300px;
+    margin-top: 1px;
+    
+}
+.header-item{
+    display: flexblock;
+    flex-direction:row;
+    text-align: center;
+    justify-content: space-evenly;
+    
+    
+}
+.sub{
+    border-bottom: 2px solid rgb(224, 185, 12);
+}
+.header-head{
+    letter-spacing: 5px;
+    font-size:larger ;
+    padding-top: 130px;
+    padding-bottom: 20px;
+}
+
+
+.header.par{
+    display: flex;
+}
+.header-tack{
+    font-weight:bolder;
+    font-size: xx-large;
+    color: rgb(224, 185, 12);
+}
+
+/* main */
+.main-container{
+    background-color: black;
+}
+.secondary-news-text{
+    background-color: white;
+    padding-top: 50px;
+}
+.secondary-news-image img{
+    width: 100%;
+}
+.sidebar-header{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content:baseline;
+    font-weight: 600;
+    font-size: x-large;
+    letter-spacing: 2px;
+    padding-top: 30px;
+
+
+}
+.sidebar-tack{
+    color: rgb(224, 185, 12);
+    margin-right: 20px;
+    font-size:40px;
+    padding-left: 10px;
+    font-weight: 600;
+
+}
+.sidebar-pick{
+    margin: 3px;
+    margin-left: 10px;
+    display: flex ;
+    padding: 10px;
+    color: white;
+}
+
+.sidebar-pick-text{
+    color: white;
+    font-weight: bold;
+    justify-content: space-between;
+
+
+}
+.sidebar-pick-img img{
+    width: 100px;
+    height: 100px;
+    padding-right: 10px;
+    
+    
+}
+/* footer */
+
